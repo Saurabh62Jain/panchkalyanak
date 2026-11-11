@@ -1,5 +1,5 @@
 /**
- * श्री मज्जिनेन्द्र पंचकल्याणक प्रतिष्ठा महोत्सव (बीना, म.प्र. | 10-16 दिसंबर 2026)
+ * श्रीमज्जिनेन्द्र पंचकल्याणक प्रतिष्ठा महोत्सव (बीना, म.प्र. | 10-16 दिसंबर 2026)
  * विशिष्ट पात्रता ऑनलाइन फॉर्म - Google Apps Script Backend
  *
  * कार्य:
@@ -71,7 +71,7 @@ function doGet(e) {
 
   try {
     return HtmlService.createHtmlOutputFromFile("Index")
-      .setTitle("विशिष्ट पात्रता फार्म | श्री मज्जिनेन्द्र पंचकल्याणक प्रतिष्ठा महोत्सव")
+      .setTitle("विशिष्ट पात्रता फार्म | श्रीमज्जिनेन्द्र पंचकल्याणक प्रतिष्ठा महोत्सव")
       .setXFrameOptionsMode(HtmlService.XFrameOptionsMode.ALLOWALL)
       .addMetaTag("viewport", "width=device-width, initial-scale=1");
   } catch (err) {
@@ -311,7 +311,7 @@ function sendEmailAndApplyLabel_(refId, istTimestamp, payload, patraSummary, she
 
   var htmlBody = buildEmailHtml_(refId, istTimestamp, payload, patraSummary, sheetUrl);
   var plainBody =
-    "श्री मज्जिनेन्द्र पंचकल्याणक प्रतिष्ठा महोत्सव - विशिष्ट पात्रता आवेदन\n" +
+    "श्रीमज्जिनेन्द्र पंचकल्याणक प्रतिष्ठा महोत्सव - विशिष्ट पात्रता आवेदन\n" +
     "Reference ID: " + refId + "\n" +
     "समय: " + istTimestamp + "\n\n" +
     "नाम: " + name + "\n" +
@@ -387,7 +387,7 @@ function buildEmailHtml_(refId, istTimestamp, payload, patraSummary, sheetUrl) {
     '<div style="font-family: Arial, sans-serif; max-width: 680px; margin: 0 auto; border: 2px solid #8b1e1e; border-radius: 10px; overflow: hidden;">' +
       '<div style="background: #8b1e1e; color: #ffffff; padding: 16px 20px; text-align: center;">' +
         '<div style="font-size: 12px; opacity: 0.9;">॥ श्री आदिनाथाय नमः ॥ श्री विद्यासागराय नमः ॥ श्री महावीराय नमः ॥</div>' +
-        '<h2 style="margin: 6px 0 4px; font-size: 20px;">श्री मज्जिनेन्द्र पंचकल्याणक प्रतिष्ठा महोत्सव</h2>' +
+        '<h2 style="margin: 6px 0 4px; font-size: 20px;">श्रीमज्जिनेन्द्र पंचकल्याणक प्रतिष्ठा महोत्सव</h2>' +
         '<div style="font-size: 14px;">विशिष्ट पात्रता ऑनलाइन आवेदन | श्रुततीर्थ – श्रुतधाम, बीना (म.प्र.)</div>' +
       '</div>' +
       '<div style="padding: 18px 20px; background: #fffdf8;">' +
