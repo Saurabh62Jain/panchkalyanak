@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>विशिष्ट पात्रता फार्म | श्री मज्जिनेन्द्र पंचकल्याणक प्रतिष्ठा महोत्सव - बीना (म.प्र.)</title>
+  <meta name="description" content="श्री मज्जिनेन्द्र पंचकल्याणक प्रतिष्ठा महोत्सव, श्रुततीर्थ – श्रुतधाम, बीना (म.प्र.) (10–16 दिसंबर 2026) हेतु ऑनलाइन विशिष्ट पात्रता आवेदन फार्म।" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Connection Mode Banner (Visible only in Demo Mode before Apps Script URL is set) -->
+  <div id="demoBanner" class="demo-banner hidden" role="status">
+    <div class="demo-banner-inner">
+      <span class="demo-badge">डेमो मोड</span>
+      <span>यह फ़ॉर्म अभी स्थानीय प्रीव्यू मोड में है। ईमेल (<strong>1001anujjain@gmail.com</strong> - <em>panchkalyanak</em> फ़ोल्डर) व Google Sheet से जोड़ने के लिए <code>config.js</code> में अपना Apps Script URL जोड़ें।</span>
+    </div>
+  </div>
+
+  <div class="page-wrapper">
+    <!-- Sacred Header Card (Matches Page 1 of Offline Form) -->
+    <header class="mahotsav-header">
+      <div class="header-double-border">
+        <div class="invocations">
+          <span>॥ श्री आदिनाथाय नमः ॥</span>
+          <span>॥ श्री विद्यासागराय नमः ॥</span>
+          <span>॥ श्री महावीराय नमः ॥</span>
+        </div>
+
+        <h1 class="mahotsav-title">श्री मज्जिनेन्द्र पंचकल्याणक प्रतिष्ठा महोत्सव</h1>
+
+        <div class="header-badges">
+          <div class="ornate-pill">श्रुततीर्थ – श्रुतधाम, बीना (म.प्र.)</div>
+          <div class="ornate-pill date-pill">10 – 16 दिसंबर 2026</div>
+        </div>
+
+        <div class="form-title-ribbon">
+          <h2>विशिष्ट पात्रता फार्म</h2>
+        </div>
+
+        <!-- Blessings & Sannidhya -->
+        <details class="sannidhya-details" open>
+          <summary class="sannidhya-toggle">
+            <span>मंगल आशीर्वाद एवं सान्निध्य विवरण</span>
+            <span class="toggle-hint">(देखने / छिपाने हेतु क्लिक करें)</span>
+          </summary>
+          <div class="sannidhya-grid">
+            <div class="sannidhya-block">
+              <h3>-: मंगल आशीर्वाद एवं संभावित सान्निध्य :-</h3>
+              <p>परम पूज्य आचार्य श्री 108 समयसागर जी महाराज ससंघ</p>
+              <p>पूज्य निर्यापक श्रमण श्री 108 अभयसागर जी महाराज ससंघ</p>
+            </div>
+            <div class="sannidhya-block">
+              <h3>-: मंगल सान्निध्य :-</h3>
+              <p>परम पूज्य मुनि श्री 108 सरलसागर जी महाराज</p>
+              <p>पूज्य मुनि श्री 108 मंगलानंदसागर जी महाराज</p>
+              <p>पूज्य मुनि श्री 108 मंगलसागर जी महाराज</p>
+            </div>
+            <div class="sannidhya-block">
+              <h3>-: एवं संभावित सान्निध्य :-</h3>
+              <p>पूज्य मुनि श्री 108 दुर्लभसागर जी महाराज ससंघ</p>
+            </div>
+          </div>
+        </details>
+      </div>
+    </header>
+
+    <!-- Main Form Container -->
+    <main id="formContainer">
+      <!-- Intro Philosophy Banner (Page 2 top) -->
+      <section class="card intro-quote-card" aria-label="महत्व एवं भावना">
+        <p class="intro-quote">
+          “पंचकल्याणक प्रतिष्ठा सामान्य क्रिया नहीं है, इसमें पाषाण को परमात्मा तो बनाया ही जाता है। सबसे प्रमुख बात यह है कि एक आत्मा सद्गुणों का विकास करता हुआ सद्गृहस्थ बनकर सप्त परम स्थानों को प्राप्त हुआ आत्मा से परमात्मा बनता है। पंचकल्याणक में प्रतिष्ठित बिम्बों में अतिशय यदि आता है तो पात्रों के सदाचार, कषाय की मंदता, न्याय-नीति से संचित द्रव्य का सदुपयोग करने से।”
+        </p>
+      </section>
+
+      <form id="panchkalyanakForm" novalidate>
+        <!-- Honeypot anti-bot field (hidden from real users) -->
+        <div class="hp-field" aria-hidden="true">
+          <label for="website_hp">Website</label>
+          <input type="text" id="website_hp" name="website_hp" tabindex="-1" autocomplete="off" />
+        </div>
+
+        <!-- Section 1: Niyamavali (Mandatory Rules) -->
+        <section class="card section-card" id="sec-niyamavali">
+          <div class="section-heading">
+            <span class="section-step">1</span>
+            <div>
+              <h3>नियमावली (अनिवार्य नियम)</h3>
+              <p class="section-sub">कृपया सभी नियमों को ध्यानपूर्वक पढ़ें एवं सहमति प्रदान करें</p>
+            </div>
+          </div>
+
+          <ol class="rules-list">
+            <li>देव, शास्त्र, गुरु के प्रति समर्पण भाव रखना होगा।</li>
+            <li>नित्य देव दर्शन, रात्रि में अन्नाहार का त्याग रखना होगा।</li>
+            <li>सप्त व्यसन का त्याग आवश्यक है।</li>
+            <li>सफेद दाग आदि चर्मरोग एवं असाध्य रोग से ग्रसित न हो।</li>
+            <li>समाज द्वारा मान्यता प्राप्त हो।</li>
+            <li>विधुर न हो।</li>
+            <li>मुनिसंघ, समिति, प्रतिष्ठाचार्य मंडल द्वारा किया गया अंतिम निर्णय स्वीकार करना होगा।</li>
+          </ol>
+
+          <label class="consent-box" for="rulesAgreed">
+            <input type="checkbox" id="rulesAgreed" name="rulesAgreed" required />
+            <span>
+              <strong>सहमति <span class="req">*</span>:</strong> मैंने उपरोक्त सभी नियमावली (1 से 7) पढ़ ली हैं और मैं पूर्ण निष्ठा से इनका पालन करने तथा मुनिसंघ, समिति व प्रतिष्ठाचार्य मंडल का अंतिम निर्णय स्वीकार करने की सहमति देता/देती हूँ।
+            </span>
+          </label>
+          <div class="field-error" id="err-rulesAgreed"></div>
+        </section>
+
+        <!-- Section 2: Swechhik Niyam (Voluntary Rules) -->
+        <section class="card section-card" id="sec-swechhik">
+          <div class="section-heading">
+            <span class="section-step">2</span>
+            <div>
+              <h3>स्वेच्छिक नियम</h3>
+              <p class="section-sub">अपनी दैनिक धार्मिक चर्या एवं नियमों का विवरण भरें</p>
+            </div>
+          </div>
+
+          <div class="voluntary-grid">
+            <div class="form-group">
+              <label class="group-label">(1) प्रतिदिन अभिषेक, पूजन करते हैं ? <span class="req">*</span></label>
+              <div class="radio-row">
+                <label class="radio-chip">
+                  <input type="radio" name="abhishekPoojan" value="हाँ" required />
+                  <span>हाँ</span>
+                </label>
+                <label class="radio-chip">
+                  <input type="radio" name="abhishekPoojan" value="नहीं" />
+                  <span>नहीं</span>
+                </label>
+              </div>
+              <div class="field-error" id="err-abhishekPoojan"></div>
+            </div>
+
+            <div class="form-group">
+              <label class="group-label">(2) स्वाध्याय करते हैं ? <span class="req">*</span></label>
+              <div class="radio-row">
+                <label class="radio-chip">
+                  <input type="radio" name="swadhyay" value="हाँ" required />
+                  <span>हाँ</span>
+                </label>
+                <label class="radio-chip">
+                  <input type="radio" name="swadhyay" value="नहीं" />
+                  <span>नहीं</span>
+                </label>
+              </div>
+              <div class="field-error" id="err-swadhyay"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="pratimaCount" class="group-label">(3) यदि प्रतिमाधारी हैं तो कितनी प्रतिमा हैं ?</label>
+              <select id="pratimaCount" name="pratimaCount" class="form-control">
+                <option value="प्रतिमाधारी नहीं हैं">प्रतिमाधारी नहीं हैं</option>
+                <option value="1 प्रतिमा">1 प्रतिमा</option>
+                <option value="2 प्रतिमा">2 प्रतिमा</option>
+                <option value="3 प्रतिमा">3 प्रतिमा</option>
+                <option value="4 प्रतिमा">4 प्रतिमा</option>
+                <option value="5 प्रतिमा">5 प्रतिमा</option>
+                <option value="6 प्रतिमा">6 प्रतिमा</option>
+                <option value="7 प्रतिमा">7 प्रतिमा</option>
+                <option value="8 प्रतिमा">8 प्रतिमा</option>
+                <option value="9 प्रतिमा">9 प्रतिमा</option>
+                <option value="10 प्रतिमा">10 प्रतिमा</option>
+                <option value="11 प्रतिमा">11 प्रतिमा</option>
+              </select>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="previousPanchkalyanak" class="group-label">(4) किसी पंचकल्याणक अथवा विधान में कोई बड़ा पद लेकर भाग लिया है ? उल्लेख करें -</label>
+              <textarea id="previousPanchkalyanak" name="previousPanchkalyanak" class="form-control" rows="2" placeholder="उदाहरण: हाँ, वर्ष 2023 में सौधर्म इन्द्र / कुबेर पद... (यदि नहीं, तो खाली छोड़ें या 'नहीं' लिखें)"></textarea>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="otherSpecialRules" class="group-label">(5) आपके अन्य कुछ विशेष नियम हो तो उल्लेख करें।</label>
+              <textarea id="otherSpecialRules" name="otherSpecialRules" class="form-control" rows="2" placeholder="जैसे: आजीवन रात्रि भोजन त्याग, जमीकंद त्याग, एक समय भोजन आदि..."></textarea>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 3: Vishishta Patra (Items 1 to 30) -->
+        <section class="card section-card" id="sec-patra">
+          <div class="section-heading">
+            <span class="section-step">3</span>
+            <div>
+              <h3>विशिष्ट पात्र चयन (क्रम 1 से 30)</h3>
+              <p class="section-sub">इच्छित पात्र के सामने अपनी प्रस्तावित राशि लिखें अथवा बॉक्स को चुनें</p>
+            </div>
+          </div>
+
+          <!-- Live Selection Summary Bar -->
+          <div class="selection-summary-bar" id="selectionSummaryBar">
+            <div class="summary-stat">
+              <span class="summary-label">चयनित पात्र:</span>
+              <strong id="selectedCountBadge">0</strong>
+            </div>
+            <div class="summary-stat">
+              <span class="summary-label">कुल अनुमानित राशि:</span>
+              <strong id="selectedTotalBadge">₹ 0</strong>
+            </div>
+          </div>
+
+          <!-- Group A: 1 to 13 -->
+          <div class="patra-group">
+            <div class="patra-group-header">
+              <h4>क्रम 1 से 13 — प्रमुख विशिष्ट पात्र</h4>
+              <span class="group-hint">(बाक्स में आप अपनी प्रस्तावित राशि ₹ लिखें)</span>
+            </div>
+            <div id="patraGroupA" class="patra-list"></div>
+          </div>
+
+          <!-- Group B: 14 to 24 -->
+          <div class="patra-group">
+            <div class="patra-group-header">
+              <h4>क्रम 14 से 24 — निर्धारित राशि वाले विशिष्ट पात्र</h4>
+              <span class="group-hint">(पात्र चुनें एवं इच्छुक व्यक्ति का नाम लिखें)</span>
+            </div>
+            <div id="patraGroupB" class="patra-list"></div>
+          </div>
+
+          <!-- Group C: 25 to 30 -->
+          <div class="patra-group">
+            <div class="patra-group-header">
+              <h4>क्रम 25 से 30 — अन्य विशेष पात्र एवं सौभाग्य अवसर</h4>
+              <span class="group-hint">(नियमानुसार पात्र चुनें एवं नाम/संख्या लिखें)</span>
+            </div>
+            <div id="patraGroupC" class="patra-list"></div>
+          </div>
+        </section>
+
+        <!-- Section 4: Important Notes -->
+        <section class="card notes-card" id="sec-notes">
+          <h3>महत्वपूर्ण नोट</h3>
+          <ol class="notes-list">
+            <li>क्र. 1 से 13 तक के विशिष्ट पात्रों के बनने के इच्छुक अपनी राशि लिखें। चयन समिति चयन करने के पूर्व साक्षात्कार हेतु आमंत्रित करेगी।</li>
+            <li>क्र. 14 से 24 तक के पात्र बनने के इच्छुक व्यक्ति भी अपना नाम लिखें। समिति विचार करके आपको सूचित करेगी।</li>
+            <li>विशेष पात्रों के लिए मंच पर बैठने के लिए क्रमानुसार उच्च स्थान, विशेष परिधान व मांगलिक क्रियाएं सम्पन्न करने के लिए अवसर प्राप्त होगा।</li>
+            <li>
+              अन्य विशेष जानकारी प्राप्त करने के लिए कार्यालय में स्वयं आकर चर्चा कर सकते हैं अथवा सम्पर्क सूत्र पर सम्पर्क करें:
+              <div class="contact-chips">
+                <a href="tel:7440727214" class="contact-chip">📞 7440727214</a>
+                <a href="tel:9425193784" class="contact-chip">📞 9425193784</a>
+                <a href="tel:9425193761" class="contact-chip">📞 9425193761</a>
+                <a href="tel:9425135780" class="contact-chip">📞 9425135780</a>
+                <a href="tel:8319861596" class="contact-chip">📞 8319861596</a>
+              </div>
+            </li>
+          </ol>
+        </section>
+
+        <!-- Section 5: Patra Parichay (Applicant Details) -->
+        <section class="card section-card" id="sec-parichay">
+          <div class="section-heading">
+            <span class="section-step">4</span>
+            <div>
+              <h3>पात्र परिचय (आवेदक का विवरण)</h3>
+              <p class="section-sub">कृपया सभी आवश्यक जानकारी स्पष्ट रूप से भरें</p>
+            </div>
+          </div>
+
+          <div class="parichay-grid">
+            <div class="form-group">
+              <label for="applicantName" class="group-label">(1) नाम <span class="req">*</span></label>
+              <input type="text" id="applicantName" name="applicantName" class="form-control" required placeholder="पूरा नाम लिखें" />
+              <div class="field-error" id="err-applicantName"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="spouseName" class="group-label">(2) पत्नि का नाम <span class="field-opt">(या अभिभावक का नाम)</span></label>
+              <input type="text" id="spouseName" name="spouseName" class="form-control" placeholder="पत्नि / कन्या या बालक हेतु अभिभावक का नाम" />
+            </div>
+
+            <div class="form-group">
+              <label for="mobileNumber" class="group-label">(3) मोबा. नं. <span class="req">*</span></label>
+              <input type="tel" id="mobileNumber" name="mobileNumber" class="form-control" required maxlength="10" inputmode="numeric" placeholder="10 अंकों का मोबाइल नंबर" />
+              <div class="field-error" id="err-mobileNumber"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="age" class="group-label">(4) आयु (वर्षों में) <span class="req">*</span></label>
+              <input type="number" id="age" name="age" class="form-control" required min="1" max="120" placeholder="उम्र लिखें" />
+              <div class="field-error" id="err-age"></div>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="occupation" class="group-label">(5) नौकरी / व्यवसाय <span class="req">*</span></label>
+              <input type="text" id="occupation" name="occupation" class="form-control" required placeholder="आपका कार्य / व्यापार / नौकरी का विवरण" />
+              <div class="field-error" id="err-occupation"></div>
+            </div>
+
+            <div class="form-group full-width">
+              <label for="address" class="group-label">(6) निवास (पूरा पता शहर व पिनकोड सहित) <span class="req">*</span></label>
+              <textarea id="address" name="address" class="form-control" rows="2" required placeholder="मकान नं., मोहल्ला/कॉलोनी, शहर, जिला, राज्य"></textarea>
+              <div class="field-error" id="err-address"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="desiredRole1" class="group-label">(7) आप कौन सा पद प्राप्त करना चाहते हैं - 1) प्राथमिकता <span class="req">*</span></label>
+              <select id="desiredRole1" name="desiredRole1" class="form-control" required>
+                <option value="">-- पहला पद चुनें --</option>
+              </select>
+              <div class="field-error" id="err-desiredRole1"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="desiredRole2" class="group-label">2) द्वितीय विकल्प <span class="field-opt">(वैकल्पिक)</span></label>
+              <select id="desiredRole2" name="desiredRole2" class="form-control">
+                <option value="">-- दूसरा पद चुनें (यदि कोई हो) --</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="donationAmount" class="group-label">(8) न्यौछावर, दान राशि (₹ अंकों में) <span class="req">*</span></label>
+              <input type="number" id="donationAmount" name="donationAmount" class="form-control" required min="0" placeholder="जैसे: 51151" />
+              <div class="field-error" id="err-donationAmount"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="donationAmountWords" class="group-label">शब्दों में <span class="req">*</span></label>
+              <input type="text" id="donationAmountWords" name="donationAmountWords" class="form-control" required placeholder="राशि शब्दों में (अंक लिखने पर स्वतः बनेगी)" />
+              <div class="field-error" id="err-donationAmountWords"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="signature" class="group-label">हस्ताक्षर (पूर्ण नाम लिखें) <span class="req">*</span></label>
+              <input type="text" id="signature" name="signature" class="form-control signature-input" required placeholder="आवेदक के हस्ताक्षर स्वरूप पूरा नाम" />
+              <div class="field-error" id="err-signature"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="submissionDate" class="group-label">दिनांक <span class="req">*</span></label>
+              <input type="date" id="submissionDate" name="submissionDate" class="form-control" required />
+              <div class="field-error" id="err-submissionDate"></div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Section 6: Simple CAPTCHA & Submit -->
+        <section class="card section-card captcha-card" id="sec-captcha">
+          <div class="section-heading">
+            <span class="section-step">5</span>
+            <div>
+              <h3>सुरक्षा सत्यापन (रोबोट/स्पैम से बचाव हेतु)</h3>
+              <p class="section-sub">फ़ॉर्म सबमिट करने के लिए नीचे चित्र में दिख रहे 4 अंक दर्ज करें</p>
+            </div>
+          </div>
+
+          <div class="captcha-row">
+            <div class="captcha-visual-box">
+              <div id="captchaDisplay" class="captcha-display" aria-label="सुरक्षा कोड चित्र">
+                <span class="captcha-loading">कोड लोड हो रहा है...</span>
+              </div>
+              <button type="button" id="refreshCaptchaBtn" class="btn-refresh-captcha" title="नया कोड प्राप्त करें">
+                ↻ नया कोड
+              </button>
+            </div>
+
+            <div class="captcha-input-wrap">
+              <label for="captchaInput" class="group-label">चित्र में दिखाई देने वाले अंक लिखें <span class="req">*</span></label>
+              <input type="text" id="captchaInput" name="captchaInput" class="form-control captcha-input" required maxlength="6" inputmode="numeric" autocomplete="off" placeholder="4 अंक दर्ज करें" />
+              <div class="field-error" id="err-captchaInput"></div>
+            </div>
+          </div>
+
+          <div id="formGlobalError" class="global-error hidden" role="alert"></div>
+
+          <div class="submit-actions">
+            <button type="submit" id="submitBtn" class="btn-submit">
+              <span class="btn-text">आवेदन फार्म सबमिट करें</span>
+              <span class="btn-spinner hidden" aria-hidden="true"></span>
+            </button>
+            <p class="submit-note">
+              सबमिट करने पर आपका विवरण समिति के रिकॉर्ड (Google Sheet व ईमेल) में सुरक्षित रूप से दर्ज हो जाएगा।
+            </p>
+          </div>
+        </section>
+      </form>
+    </main>
+
+    <!-- Success / Confirmation Receipt View -->
+    <section id="receiptView" class="card receipt-card hidden" aria-live="polite">
+      <div class="receipt-badge">✓</div>
+      <h2>आवेदन सफलतापूर्वक प्राप्त हुआ!</h2>
+      <p class="receipt-subtitle">
+        श्री मज्जिनेन्द्र पंचकल्याणक प्रतिष्ठा महोत्सव - विशिष्ट पात्रता फार्म दर्ज कर लिया गया है।
+      </p>
+
+      <div class="receipt-ref-box">
+        <span>आवेदन संदर्भ क्रमांक (Reference ID):</span>
+        <strong id="receiptRefId">PK-2026-0000</strong>
+      </div>
+
+      <div id="receiptDemoNotice" class="receipt-demo-notice hidden">
+        <strong>नोट (डेमो मोड):</strong> अभी Apps Script URL लिंक नहीं है, इसलिए यह केवल लोकल प्रीव्यू रसीद है। लाइव होने के बाद हर एंट्री सीधे <strong>1001anujjain@gmail.com</strong> (<em>panchkalyanak</em> फ़ोल्डर) व Google Sheet में जाएगी।
+      </div>
+
+      <div class="receipt-summary" id="receiptSummary"></div>
+
+      <div class="receipt-actions no-print">
+        <button type="button" id="printReceiptBtn" class="btn-secondary">🖨️ रसीद प्रिंट / PDF सेव करें</button>
+        <button type="button" id="newFormBtn" class="btn-primary-outline">नया फॉर्म भरें</button>
+      </div>
+    </section>
+
+    <!-- Footer (Nivedak from Page 1) -->
+    <footer class="mahotsav-footer">
+      <div class="footer-box">
+        <p class="nivedak-label">निवेदक -</p>
+        <p class="nivedak-name">अनेकान्त ज्ञान मंदिर, श्रुततीर्थ श्रुतधाम समिति बीना ( म.प्र. )</p>
+        <p class="nivedak-phones">
+          7440727214, 9425193784, 9425193761, 9425135780, 8319861596
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="config.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
